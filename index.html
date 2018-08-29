@@ -187,7 +187,19 @@
                                                     <label for="zipcodeComputeFreight" class="t-bold d-block mb-xs">Calcular
                                                         frete e prazo</label>
                                                     <div class="form-group">
-                                                        <input placeholder="Preencha seu CEP" type="text" id="zipcodeComputeFreight" class="zipcode form-control" name="cep" data-mask="00000-000"
+                                                        <input placeholder="Preencha seu CEP" type="tel" id="zipcodeComputeFreight" class="zipcode form-control" name="cep" data-mask="00000-000"
+                                                            data-stockid="32289628" data-logged="true" data-url="/rest/consulta-frete">
+                                                        <button type="submit" id="btnComputeFreight" class="send-query button secondary">OK</button>
+                                                    </div>
+                                                </fieldset>
+                                            </form>
+
+                                            <form id="formComputeFreight2" class="enter-cep deadline">
+                                                <fieldset>
+                                                    <label for="zipcodeComputeFreight" class="t-bold d-block mb-xs">Calcular
+                                                        frete e prazo</label>
+                                                    <div class="form-group">
+                                                        <input placeholder="Preencha seu CEP" type="text" id="zipcodeComputeFreight2" class="zipcode form-control" name="cep" data-mask="00000-000"
                                                             data-stockid="32289628" data-logged="true" data-url="/rest/consulta-frete">
                                                         <button type="submit" id="btnComputeFreight" class="send-query button secondary">OK</button>
                                                     </div>

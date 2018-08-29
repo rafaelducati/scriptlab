@@ -1,3 +1,3 @@
-### Script Lab
+# Script Lab
 
 Just for testing.

@@ -1,0 +1,831 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js" style="--primaryColor:#fee600;--secondaryColor:#000000;"><!--<![endif]-->
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Tracbel.Digital </title>
+	<link rel="stylesheet" href="application.css?compile=false"  />
+
+
+
+		<link rel="icon" type="image/png" sizes="16x16" href="/assets/amazonMobile/favicon-16x16.png">
+
+
+	<link rel="manifest" href="/assets/amazonMobile/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/assets/amazonMobile/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+    <meta name="robots" content="noindex,nofollow"/>
+
+
+
+	<script>var enviroment="development";</script>
+
+
+
+
+
+
+        <meta name="layout" content="amazonMobile/main"/>
+
+        <!-- START - Facebook Open Graph, Google+ and Twitter Card Tags 1.6 -->
+        <meta property="og:type" content="website"/>
+        <meta property="og:locale" content="pt_BR"/>
+        <meta property="fb:app_id" content="524161151081837"/>
+
+        <meta property="og:site_name" content="Tracbel.Digital"/>
+        <meta itemprop="name" content="Tracbel.Digital"/>
+
+        <meta property="og:title" content="Tracbel.Digital: Compra e Venda de Peças - Carros, Motos, Caminhões"/>
+        <meta name="twitter:title" content="Tracbel.Digital: Compra e Venda de Peças - Carros, Motos, Caminhões"/>
+
+        <meta property="og:url" content="http://www.dev.canaldapeca.com.br"/>
+        <meta name="twitter:url" content="http://www.dev.canaldapeca.com.br"/>
+        <link rel="canonical" href="http://www.dev.canaldapeca.com.br" />
+
+        <meta property="og:description" content="Compre e venda de peças e acessórios para carros, motos, caminhões, ônibus e peças industriais. Entrega em Todo o Brasil. Tudo em até 12x."/>
+        <meta name="description" content="Compre e venda de peças e acessórios para carros, motos, caminhões, ônibus e peças industriais. Entrega em Todo o Brasil. Tudo em até 12x."/>
+        <meta name="twitter:description" content="Compre e venda de peças e acessórios para carros, motos, caminhões, ônibus e peças industriais. Entrega em Todo o Brasil. Tudo em até 12x."/>
+
+        <meta property="keywords" content="Tracbel.Digital, Tracbel.Digital, autopeças, auto peças, auto-peças, auto pecas, auto-pecas, autopecas, peças, pecas, peças para carros, peças para carro, comprar, compra, online"/>
+
+        <meta property="og:image" content="http://www.dev.canaldapeca.com.br/assets/canal-da-peca-og.jpg"/>
+        <meta itemprop="image" content="http://www.dev.canaldapeca.com.br/assets/canal-da-peca-og.jpg"/>
+        <meta name="twitter:image:src" content="http://www.dev.canaldapeca.com.br/assets/canal-da-peca-og.jpg"/>
+
+        <meta name="twitter:card" content="summary_large_image"/>
+
+        <link rel="publisher" href="https://plus.google.com/115113864863866027522">
+
+        <!-- END - Facebook Open Graph, Google+ and Twitter Card Tags -->
+
+
+
+
+
+</head>
+<body>
+
+	<div id="wrapper">
+		<header >
+    <nav class="header">
+        <div class="container pt-xs pb-xs mb-xs pl-sm pr-sm">
+            <div class="row no-gutters">
+                <nav class="flex">
+                    <h1 class="logo">
+                        <a href="/" itemprop="url">
+                            <img src="https://d1w0bixe0omisu.cloudfront.net/fornecedores/m/tracbeldigital.jpg" alt="Tracbel.Digital logotipo" />
+                            <link rel="publisher" href="https://plus.google.com/115113864863866027522">
+                            <span>Tracbel.Digital </span>
+                        </a>
+                    </h1>
+
+                    <ul class="user-menu">
+                        <li>
+
+
+                                <a href="/login?targetUri=%2F">Entre</a>
+
+                        </li>
+
+                            <li>
+                                <a href="/chat"><label>Chat</label></a>
+                            </li>
+
+                    </ul>
+
+
+
+                    <div class="search">
+
+                        <label class="search-toggle" for="searchTop">
+                            <i class="material-icons">search</i>
+                        </label>
+                    </div>
+                    <div class="cart-container">
+                        <div class="cart">
+                            <a href="/carrinho">
+                                <span class="cart-icon">
+                                    <img src="/assets/amazonMobile/header/icon-cart.png" />
+                                    <i class="material-icons cart-notification">circle</i>
+                                </span>
+                                <span class="cart-quantity"></span>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <form action="/busca" method="get" autocomplete="off" id="mainSearch">
+                <input type="checkbox" class="css-menu-toggle" id="searchTop" />
+                <div class="search-field css-menu-container">
+                    <input type="text" class="search-input" name="q" autofocus="autofocus" value="" placeholder="Digite o  você está procurando" id="q" />
+                    <button type="submit" class="button primary search-button" onclick="search(event);">Buscar</button>
+                </div>
+            </form>
+
+            <div class="row no-gutters">
+                <nav class="flex">
+
+
+
+
+
+
+
+                </nav>
+            </div>
+            <div class="row no-gutters">
+
+
+            </div>
+        </div>
+    </nav>
+    <nav class="header-secondary">
+        <a class="button primary w-100" href="/categorias">
+            <i class="ico-button">
+                <img src="/assets/amazonMobile/header/icon-menu.png" />
+            </i>
+            Todos os departamentos
+
+        </a>
+    </nav>
+
+</header>
+
+
+
+    <input type="hidden" name="urlFilter" id="urlFilter" value="equipamentos"/>
+
+
+    <nav class="header-filter">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="flex">
+                        <div class="field" id="vehicle">
+                            <span class="text">Filtre por Equipamento:</span>
+                            <div class="filter-select-container">
+                                <div class="filter-select-loading">
+                                    <i class="fa fa-circle-o-notch fa-spin"></i>
+                                    <span>
+                                        Equipamento
+                                    </span>
+                                </div>
+                                <select class="filter-select y-vehicle" data-placeholder="Equipamento">
+                                    <option value="">Equipamento</option>
+                                    <option value="Caminhões Articulados">Caminhões Articulados</option>
+                                    <option value="Carregadeira de Rodas">Carregadeira de Rodas</option>
+                                    <option value="Escavadeira">Escavadeira</option>
+                                    <option value="Feller Bunchers">Feller Bunchers</option>
+                                    <option value="Minicarregadeira">Minicarregadeira</option>
+                                    <option value="Miniescavadeiras">Miniescavadeiras</option>
+                                    <option value="Motoniveladoras">Motoniveladoras</option>
+                                    <option value="Pavimentadoras">Pavimentadoras</option>
+                                    <option value="Pipelayers">Pipelayers</option>
+                                    <option value="Rolos compactadores">Rolos compactadores</option>
+                                </select>
+                            </div>
+                            <div class="filter-select-container disabled">
+                                <div class="filter-select-loading">
+                                    <i class="fa fa-circle-o-notch fa-spin"></i>
+                                    <span>
+                                        Marca
+                                    </span>
+                                </div>
+                                <select class="filter-select y-brand" data-placeholder="Marca"></select>
+                            </div>
+                            <div class="filter-select-container disabled">
+                                <div class="filter-select-loading">
+                                    <i class="fa fa-circle-o-notch fa-spin"></i>
+                                    <span>
+                                        Modelo
+                                    </span>
+                                </div>
+                                <select class="filter-select y-model" data-placeholder="Modelo"></select>
+                            </div>
+                            <div class="filter-select-container input-text">
+                                <input type="text" class="filter-select y-year" placeholder="Número de Série">
+                            </div>
+                            <button type="submit" class="filter-button button secondary" disabled="">Filtrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+        <!-- Banner: banner not found -->
+
+        <div class="go-home-container clearfix">
+            <div class="home-container">
+
+
+                    <div class="section-brands clearfix">
+
+	<div class="brand-items-wrap">
+
+
+			<a href="/marca/original-volvo" class="brand-item">
+				<img src="https://images.canaldapeca.com.br/fabricantes/m/original-volvo.jpg" alt="" class="brand-img">
+				<p class="brand-name">Original Volvo</p>
+			</a>
+
+			<a href="/marca/michelin" class="brand-item">
+				<img src="https://images.canaldapeca.com.br/fabricantes/m/michelin.jpg" alt="" class="brand-img">
+				<p class="brand-name">Michelin</p>
+			</a>
+
+			<a href="/marca/volvo-penta" class="brand-item">
+				<img src="https://images.canaldapeca.com.br/fabricantes/m/volvo-penta.jpg" alt="" class="brand-img">
+				<p class="brand-name">Volvo Penta</p>
+			</a>
+
+			<a href="/marca/tigercat" class="brand-item">
+				<img src="https://images.canaldapeca.com.br/fabricantes/m/tigercat.jpg" alt="" class="brand-img">
+				<p class="brand-name">Tigercat</p>
+			</a>
+
+
+	</div>
+</div>
+
+
+
+
+
+
+    <div class="y-Products">
+        <span class="heading-2 ">Produtos em destaque</span>
+        <div class="y-Shelf  row">
+
+
+
+
+                <div class="y-item">
+                    <div class="y-image">
+                        <a href="/p/4529568/filtro-de-combustivel-original-volvo-15126069-unitario">
+                            <img class="img-responsive" src="https://d1w0bixe0omisu.cloudfront.net/produtos/m/68/95/filtro-de-combustivel-4529568-1514310971680.jpg" alt="Filtro de Combustivel - Original Volvo - 15126069 - Unitário">
+                        </a>
+                    </div>
+                    <a href="/p/4529568/filtro-de-combustivel-original-volvo-15126069-unitario">
+                        <span class="produto-mfrPartCode">
+                            15126069
+                        </span>
+                        <span class="produto-nome">
+                            Filtro de Combustivel - Original Volvo - 15126069 - Unitário
+                        </span>
+                    </a>
+
+
+                    <span class="produto-preco"
+                          data-template="search-price-template"
+                          data-sku-id="4529568"
+                          data-sku-link="/p/4529568/filtro-de-combustivel-original-volvo-15126069-unitario"></span>
+                </div>
+
+
+
+
+                <div class="y-item">
+                    <div class="y-image">
+                        <a href="/p/4541789/filtro-de-oleo-original-volvo-21707132-unitario">
+                            <img class="img-responsive" src="https://d1w0bixe0omisu.cloudfront.net/produtos/m/89/17/filtro-de-oleo-4541789-1514310964241.jpg" alt="Filtro de Óleo - Original Volvo - 21707132 - Unitário">
+                        </a>
+                    </div>
+                    <a href="/p/4541789/filtro-de-oleo-original-volvo-21707132-unitario">
+                        <span class="produto-mfrPartCode">
+                            21707132
+                        </span>
+                        <span class="produto-nome">
+                            Filtro de Óleo - Original Volvo - 21707132 - Unitário
+                        </span>
+                    </a>
+
+
+                    <span class="produto-preco"
+                          data-template="search-price-template"
+                          data-sku-id="4541789"
+                          data-sku-link="/p/4541789/filtro-de-oleo-original-volvo-21707132-unitario"></span>
+                </div>
+
+
+
+
+                <div class="y-item">
+                    <div class="y-image">
+                        <a href="/p/4525929/pneu-aro-225-28075r225-x-terminal-michelin-004371101-unitario">
+                            <img class="img-responsive" src="https://d1w0bixe0omisu.cloudfront.net/produtos/m/29/59/pneu-aro-225-28075r225-x-terminal-4525929-1514419681565.jpg" alt="PNEU ARO 22.5 280/75R22.5 X-TERMINAL - Michelin - 004371_101 - Unitário">
+                        </a>
+                    </div>
+                    <a href="/p/4525929/pneu-aro-225-28075r225-x-terminal-michelin-004371101-unitario">
+                        <span class="produto-mfrPartCode">
+                            004371_101
+                        </span>
+                        <span class="produto-nome">
+                            PNEU ARO 22.5 280/75R22.5 X-TERMINAL - Michelin - 004371_101 - Unitário
+                        </span>
+                    </a>
+
+
+                    <span class="produto-preco"
+                          data-template="search-price-template"
+                          data-sku-id="4525929"
+                          data-sku-link="/p/4525929/pneu-aro-225-28075r225-x-terminal-michelin-004371101-unitario"></span>
+                </div>
+
+
+
+
+                <div class="y-item">
+                    <div class="y-image">
+                        <a href="/p/4537294/filtro-de-ar-condicionado-original-volvo-11703980-unitario">
+                            <img class="img-responsive" src="https://d1w0bixe0omisu.cloudfront.net/produtos/m/94/72/filtro-de-ar-condicionado-4537294-1514310970815.jpg" alt="Filtro de Ar Condicionado - Original Volvo - 11703980 - Unitário">
+                        </a>
+                    </div>
+                    <a href="/p/4537294/filtro-de-ar-condicionado-original-volvo-11703980-unitario">
+                        <span class="produto-mfrPartCode">
+                            11703980
+                        </span>
+                        <span class="produto-nome">
+                            Filtro de Ar Condicionado - Original Volvo - 11703980 - Unitário
+                        </span>
+                    </a>
+
+
+                    <span class="produto-preco"
+                          data-template="search-price-template"
+                          data-sku-id="4537294"
+                          data-sku-link="/p/4537294/filtro-de-ar-condicionado-original-volvo-11703980-unitario"></span>
+                </div>
+
+
+
+
+                <div class="y-item">
+                    <div class="y-image">
+                        <a href="/p/4532738/filtro-de-combustivel-original-volvo-20805349-unitario">
+                            <img class="img-responsive" src="https://d1w0bixe0omisu.cloudfront.net/produtos/m/38/27/filtro-de-combustivel-4532738-1514424081205.jpg" alt="Filtro de Combustível - Original Volvo - 20805349 - Unitário">
+                        </a>
+                    </div>
+                    <a href="/p/4532738/filtro-de-combustivel-original-volvo-20805349-unitario">
+                        <span class="produto-mfrPartCode">
+                            20805349
+                        </span>
+                        <span class="produto-nome">
+                            Filtro de Combustível - Original Volvo - 20805349 - Unitário
+                        </span>
+                    </a>
+
+
+                    <span class="produto-preco"
+                          data-template="search-price-template"
+                          data-sku-id="4532738"
+                          data-sku-link="/p/4532738/filtro-de-combustivel-original-volvo-20805349-unitario"></span>
+                </div>
+
+
+
+
+                <div class="y-item">
+                    <div class="y-image">
+                        <a href="/p/4548026/filtro-de-oleo-original-volvo-3831236-unitario">
+                            <img class="img-responsive" src="https://d1w0bixe0omisu.cloudfront.net/produtos/m/26/80/filtro-de-oleo-4548026-1514999038245.jpg" alt="Filtro de Óleo - Original Volvo - 3831236 - Unitário">
+                        </a>
+                    </div>
+                    <a href="/p/4548026/filtro-de-oleo-original-volvo-3831236-unitario">
+                        <span class="produto-mfrPartCode">
+                            3831236
+                        </span>
+                        <span class="produto-nome">
+                            Filtro de Óleo - Original Volvo - 3831236 - Unitário
+                        </span>
+                    </a>
+
+
+                    <span class="produto-preco"
+                          data-template="search-price-template"
+                          data-sku-id="4548026"
+                          data-sku-link="/p/4548026/filtro-de-oleo-original-volvo-3831236-unitario"></span>
+                </div>
+
+
+
+
+                <div class="y-item">
+                    <div class="y-image">
+                        <a href="/p/4615642/filtro-de-ar-original-volvo-11110532-unitario">
+                            <img class="img-responsive" src="https://d1w0bixe0omisu.cloudfront.net/produtos/m/42/56/filtro-de-ar-4615642-1514310967225.jpg" alt="Filtro de Ar - Original Volvo - 11110532 - Unitário">
+                        </a>
+                    </div>
+                    <a href="/p/4615642/filtro-de-ar-original-volvo-11110532-unitario">
+                        <span class="produto-mfrPartCode">
+                            11110532
+                        </span>
+                        <span class="produto-nome">
+                            Filtro de Ar - Original Volvo - 11110532 - Unitário
+                        </span>
+                    </a>
+
+
+                    <span class="produto-preco"
+                          data-template="search-price-template"
+                          data-sku-id="4615642"
+                          data-sku-link="/p/4615642/filtro-de-ar-original-volvo-11110532-unitario"></span>
+                </div>
+
+
+
+
+                <div class="y-item">
+                    <div class="y-image">
+                        <a href="/p/4542841/filtro-separador-de-agua-original-volvo-11110683-unitario">
+                            <img class="img-responsive" src="https://d1w0bixe0omisu.cloudfront.net/produtos/m/41/28/filtro-separador-de-agua-4542841-1514310983389.jpg" alt="Filtro Separador de Água - Original Volvo - 11110683 - Unitário">
+                        </a>
+                    </div>
+                    <a href="/p/4542841/filtro-separador-de-agua-original-volvo-11110683-unitario">
+                        <span class="produto-mfrPartCode">
+                            11110683
+                        </span>
+                        <span class="produto-nome">
+                            Filtro Separador de Água - Original Volvo - 11110683 - Unitário
+                        </span>
+                    </a>
+
+
+                    <span class="produto-preco"
+                          data-template="search-price-template"
+                          data-sku-id="4542841"
+                          data-sku-link="/p/4542841/filtro-separador-de-agua-original-volvo-11110683-unitario"></span>
+                </div>
+
+
+
+
+                <div class="y-item">
+                    <div class="y-image">
+                        <a href="/p/4532678/filtro-de-ar-cabine-original-volvo-15052786-unitario">
+                            <img class="img-responsive" src="https://d1w0bixe0omisu.cloudfront.net/produtos/m/78/26/filtro-de-ar-cabine-4532678-1514310970926.jpg" alt="Filtro de Ar Cabine - Original Volvo - 15052786 - Unitário">
+                        </a>
+                    </div>
+                    <a href="/p/4532678/filtro-de-ar-cabine-original-volvo-15052786-unitario">
+                        <span class="produto-mfrPartCode">
+                            15052786
+                        </span>
+                        <span class="produto-nome">
+                            Filtro de Ar Cabine - Original Volvo - 15052786 - Unitário
+                        </span>
+                    </a>
+
+
+                    <span class="produto-preco"
+                          data-template="search-price-template"
+                          data-sku-id="4532678"
+                          data-sku-link="/p/4532678/filtro-de-ar-cabine-original-volvo-15052786-unitario"></span>
+                </div>
+
+
+
+
+                <div class="y-item">
+                    <div class="y-image">
+                        <a href="/p/4661112/junta-do-coletor-de-escape-original-volvo-21352841-unitario">
+                            <img class="img-responsive" src="https://d1w0bixe0omisu.cloudfront.net/produtos/m/12/11/junta-do-coletor-de-escape-4661112-1514310984783.jpg" alt="Junta do Coletor de Escape - Original Volvo - 21352841 - Unitário">
+                        </a>
+                    </div>
+                    <a href="/p/4661112/junta-do-coletor-de-escape-original-volvo-21352841-unitario">
+                        <span class="produto-mfrPartCode">
+                            21352841
+                        </span>
+                        <span class="produto-nome">
+                            Junta do Coletor de Escape - Original Volvo - 21352841 - Unitário
+                        </span>
+                    </a>
+
+
+                    <span class="produto-preco"
+                          data-template="search-price-template"
+                          data-sku-id="4661112"
+                          data-sku-link="/p/4661112/junta-do-coletor-de-escape-original-volvo-21352841-unitario"></span>
+                </div>
+
+
+
+
+                <div class="y-item">
+                    <div class="y-image">
+                        <a href="/p/4660813/dente-da-escavadeira-original-volvo-14624280-unitario">
+                            <img class="img-responsive" src="https://d1w0bixe0omisu.cloudfront.net/produtos/m/13/08/dente-da-escavadeira-4660813-1514406837854.jpg" alt="Dente da Escavadeira - Original Volvo - 14624280 - Unitário">
+                        </a>
+                    </div>
+                    <a href="/p/4660813/dente-da-escavadeira-original-volvo-14624280-unitario">
+                        <span class="produto-mfrPartCode">
+                            14624280
+                        </span>
+                        <span class="produto-nome">
+                            Dente da Escavadeira - Original Volvo - 14624280 - Unitário
+                        </span>
+                    </a>
+
+
+                    <span class="produto-preco"
+                          data-template="search-price-template"
+                          data-sku-id="4660813"
+                          data-sku-link="/p/4660813/dente-da-escavadeira-original-volvo-14624280-unitario"></span>
+                </div>
+
+
+
+
+                <div class="y-item">
+                    <div class="y-image">
+                        <a href="/p/4595111/anel-de-vedacao-do-intercooler-original-volvo-1542781-unitario">
+                            <img class="img-responsive" src="https://d1w0bixe0omisu.cloudfront.net/produtos/m/11/51/anel-de-vedacao-do-intercooler-4595111-1517342107943.jpg" alt="Anel de Vedação do Intercooler - Original Volvo - 1542781 - Unitário">
+                        </a>
+                    </div>
+                    <a href="/p/4595111/anel-de-vedacao-do-intercooler-original-volvo-1542781-unitario">
+                        <span class="produto-mfrPartCode">
+                            1542781
+                        </span>
+                        <span class="produto-nome">
+                            Anel de Vedação do Intercooler - Original Volvo - 1542781 - Unitário
+                        </span>
+                    </a>
+
+
+                    <span class="produto-preco"
+                          data-template="search-price-template"
+                          data-sku-id="4595111"
+                          data-sku-link="/p/4595111/anel-de-vedacao-do-intercooler-original-volvo-1542781-unitario"></span>
+                </div>
+
+        </div>
+    </div>
+
+
+
+
+            </div>
+
+        </div>
+
+
+		<div class="pt-md">
+			<!-- FOOTER -->
+<footer class="footerHome footer">
+
+    <section class="footerContent">
+
+        <!-- NEWSLETTER -->
+
+        <!-- NEWSLETTER -->
+
+        <!-- FOOTER -->
+        <article class="footerTracbel">
+            <div class="col-xs-4">
+                <img src="" class="img-responsive" alt="Footer Image">
+            </div>
+            <div class="col-xs-8">
+                <p class="blend-screen">A TRACBEL dispõe de diversas linhas de produtos de alta qualidade e com as mais avançadas tecnologias para atender o mercado de equipamentos para construção, mineração, agrícola e florestais, além de oferecer o melhor suporte em pós-venda do Brasil, capaz de antecipar demandas e prover soluções.
+                </p>
+            </div>
+        </article>
+        <!-- FOOTER -->
+
+    </section>
+
+    <!-- FOOTER MENU -->
+    <nav class="footerMenu">
+
+
+
+
+	<h4>Institucional</h4>
+<ul>
+						<li><a href="/quem-somos"> Sobre</a></li>
+						<li><a href="/historia"> História</a></li>
+						<li><a href="/filiais"> Filiais</a></li>
+						<li><a href="/mapa-do-site"> Mapa do Site</a></li>
+					</ul>
+
+
+
+
+	<h4>Vendas</h4>
+<ul><p>0800 200 1000</p>
+<p> <span class="t-light small">Regiões Metropolitanas</span><br> 3003 1111</p></ul>
+
+
+
+
+	<h4>Pós-Vendas</h4>
+<ul><p>0800 200 1005</p>
+<p> <span class="t-light small">Regiões Metropolitanas</span><br> 3003 2222</p></ul>
+
+    </nav>
+    <!-- FOOTER MENU -->
+
+</footer>
+<!-- FOOTER -->
+
+<!-- COPYRIGHT -->
+<section class="copyright">
+   <article class="copyrightContent">
+       <div class="poweredWrapper">
+            <p>Powered by</p>
+            <a href="http://www.canaldapeca.com.br" target="_blank">
+                <img src="/assets/amazonMobile/footer-logo.png" alt="" width="90"/>
+            </a>
+        </div>
+        <span>© Todos os Direitos Reservados</span>
+    </article>
+</section>
+<!-- COPYRIGHT -->
+
+
+<!-- <script src="/assets/global/vendor/knockout.js?compile=false" type="text/javascript" ></script>
+<script src="/assets/global/plugins/jquery.cookie.min.js?compile=false" type="text/javascript" ></script>
+<script src="/assets/amazonMobile/newsletter.js?compile=false" type="text/javascript" ></script> -->
+
+		</div>
+
+
+            <a chatWebUrl="https://www.sandbox.tracbel.digital/chat" class="chat-popup-link" >
+    <div class="icon-chat-flutuante">
+        <div class="icon-chat-flutuante-container">
+            <i class="icon-1">
+                <img src="/assets/amazonMobile/icon-chat-1.png" />
+                <b class="blend"></b>
+            </i>
+            <i class="icon-2">
+                <img src="/assets/amazonMobile/icon-chat-2.png" />
+            </i>
+            <span>Falar com atendente via chat</span>
+        </div>
+    </div>
+</a>
+
+		<script id="search-price-template" type="text/x-handlebars-template">
+    {{#if sku.byContact}}
+
+        <a chatWebUrl="https://www.sandbox.tracbel.digital/chat" class="tb-btn button primary hv-black small chat-popup-link">
+            Fale com Vendedor
+        </a>
+
+    {{else if sku.byRequest}}
+
+            <a chatWebUrl="https://www.sandbox.tracbel.digital/chat" class="tb-btn button primary hv-black small chat-popup-link">
+                Fale com Vendedor
+            </a>
+
+    {{else if sku.nearest}}
+        <div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+            <meta itemprop="priceCurrency" content="BRL"/>
+            <link itemprop="availability" href="http://schema.org/InStock"/>
+            <meta itemprop="price" content="{{formatNumber sku.nearest.price}}"/>
+
+            {{#compare sku.sellers '>' 1}}
+                <span class="value">{{formatNumber sku.nearest.price}}</span> <br />
+
+                {{#unless seller}}
+                <span class="sellers">{{sku.sellers}} lojas</span>
+                {{/unless}}
+
+            {{else}}
+                <span class="value">{{formatNumber sku.nearest.price}}</span>
+            {{/compare}}
+        </div>
+    {{else if sku.cheapest}}
+        <div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+            <meta itemprop="priceCurrency" content="BRL"/>
+            <link itemprop="availability" href="http://schema.org/InStock"/>
+            <meta itemprop="price" content="{{formatNumber sku.cheapest.price}}"/>
+
+            {{#compare sku.sellers '>' 1}}
+                <span class="value">{{formatNumber sku.cheapest.price}}</span> <br />
+
+                {{#unless seller}}
+                <span class="sellers">{{sku.sellers}} lojas</span>
+                {{/unless}}
+
+            {{else}}
+                <span class="value">{{formatNumber sku.cheapest.price}}</span>
+            {{/compare}}
+        </div>
+    {{else}}
+
+            <a chatWebUrl="https://www.sandbox.tracbel.digital/chat" class="tb-btn button primary hv-black small chat-popup-link">
+                Fale com Vendedor
+            </a>
+
+    {{/if}}
+</script>
+
+<script id="sku-price-before-template" type="text/x-handlebars-template">
+    {{skuJSON.bestPrice.defaultPrice}}
+</script>
+
+<script id="sku-price-center-template" type="text/x-handlebars-template">
+    <meta itemprop="priceCurrency" content="BRL"/>
+    <link itemprop="availability" href="http://schema.org/InStock"/>
+    <meta itemprop="price" content="{{formatNumber sku.bestPrice.price}}"/>
+
+    {{formatNumber sku.bestPrice.price}}
+
+</script>
+
+
+<script id="sku-price-right-template" type="text/x-handlebars-template">
+    <meta itemprop="priceCurrency" content="BRL"/>
+    <link itemprop="availability" href="http://schema.org/InStock"/>
+    <meta itemprop="price" content="{{formatNumber sku.bestPrice.price}}"/>
+
+    <span class="seller-title">Vendido por <a href="/loja/{{sku.bestPrice.sellerTag}}">{{sku.bestPrice.sellerName}}</a></span>
+
+    {{#compare sku.bestPrice.stockRemaining '<' 10}}
+        {{#compare sku.bestPrice.stockRemaining '>' 0}}
+            <span class="stock-title">
+                <i class="fa fa-circle"></i>
+                {{sku.bestPrice.stockRemaining}} itens em Estoque
+            </span>
+        {{/compare}}
+    {{/compare}}
+
+
+    <span class="price-title">
+        por {{formatNumber sku.bestPrice.price}}
+    </span>
+</script>
+
+
+<script id="sku-installments-template" type="text/x-handlebars-template">
+    {{#compare sku.bestPrice.installment.quantity '==' 12}}
+        {{sku.bestPrice.installment.quantity}}x de <b>{{sku.bestPrice.installment.installmentValue}}</b>
+    {{/compare}}
+</script>
+
+<script id="sku-buy-template" type="text/x-handlebars-template">
+    <span class="quantity-title">Quantidade</span>
+    <form method="post" action="/p/adicionar" class="form-quantity" onsubmit="jQuery(this).find('button[type=submit]').attr('disabled', 'disabled');">
+        <input type="hidden" name="id" value="{{sku.bestPrice.stockId}}" />
+        <input type="hidden" name="vehicle" value="" />
+        <input type="hidden" name="make" value="" />
+        <input type="hidden" name="model" value="" />
+        <input type="hidden" name="year" value="" />
+        <div class="quantity-field">
+            <span class="quantity-button remove">
+                    <i class="material-icons">remove</i>
+            </span>
+            <input class="quantity-number" type="number" name="quantity" value="1" min="1" max="{{sku.bestPrice.stockTotal}}" data-max-value="{{sku.bestPrice.stockTotal}}" data-mask="0#" id="quantity-value" />
+            <span class="quantity-button add">
+                <i class="material-icons">add</i>
+            </span>
+        </div>
+        <button class="buy-button button primary w-100" type="submit" name="" value="">Adicionar ao carrinho</button>
+    </form>
+</script>
+<!-- <script src="/assets/global/vendor/handlebars-v4.0.5.js?compile=false" type="text/javascript" ></script>
+<script src="/assets/amazonMobile/templates.js?compile=false" type="text/javascript" ></script> -->
+
+
+    </div>
+
+
+	<!-- <script src="/assets/amazonMobile/y-vehicle.js?compile=false" type="text/javascript" ></script> -->
+
+
+
+
+
+		<script type="text/javascript">
+			function deleteCookie(name) {
+    			document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+			}
+			deleteCookie('chat-token');
+			deleteCookie('chat-session');
+			deleteCookie('token');
+			deleteCookie('subdomain');
+			deleteCookie('token-ws');
+		</script>
+
+	<script src="https://unpkg.com/css-vars-ponyfill@1"></script>
+	<script>
+       cssVars({
+           variables: {
+               "--primaryColor": "#fee600",
+               "--secondaryColor": "#000000"
+           }
+       });
+    </script>
+</body>
+</html>

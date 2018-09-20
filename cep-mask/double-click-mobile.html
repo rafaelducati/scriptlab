@@ -38,7 +38,16 @@
 
 
 
-
+<style>
+@media (pointer: fine) {
+  a span {
+    display: none;
+  }
+  a:hover span {
+    display: inline-block;
+  }
+}
+</style>
 
 <script>var enviroment="production";</script>
 
@@ -353,7 +362,7 @@
                                             <i class="material-icons">add</i>
                                         </span>
                                     </div>
-                                    <button class="buy-button button primary w-100" type="submit" name="" value="" style="cursor:pointer; background: red;" >Adicionar ao carrinho</button>
+                                    <button class="buy-button button primary w-100" type="submit" name="" value="" style="cursor:pointer!important; background: yellow;" >Adicionar ao carrinho</button>
                                 </form>
 
                         </div>
@@ -1200,6 +1209,11 @@
                     var link = el.attr("href");
                     window.location = link;
                 });
+                // $("button").on("click touchend", function(e) {
+                //     var el = $(this);
+                //     var link = el.attr("type");
+                //     window.location = link;
+                // });
             });
         </script>
 		<!-- <script src="https://epecas.rodobens.com.br/assets/amazonMobile/product-3e3414dc59b10ce19a0c86d1ba58d732.js" type="text/javascript" ></script> -->

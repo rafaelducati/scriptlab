@@ -39,14 +39,14 @@
 
 
 <style>
-@media (pointer: fine) {
-  a span {
-    display: none;
-  }
-  a:hover span {
-    display: inline-block;
-  }
-}
+    @media (pointer: fine) {
+    a span {
+        display: none;
+    }
+    a:hover span {
+        display: inline-block;
+    }
+    }
 </style>
 
 <script>var enviroment="production";</script>
@@ -362,7 +362,7 @@
                                             <i class="material-icons">add</i>
                                         </span>
                                     </div>
-                                    <button class="buy-button button primary w-100" type="submit" name="" value="" style="cursor:pointer!important; background: yellow;" >Adicionar ao carrinho</button>
+                                    <button class="buy-button button primary w-100" type="submit" name="" value="" style="cursor:pointer!important; background: purple;" >Adicionar ao carrinho</button>
                                 </form>
 
                         </div>
@@ -1202,19 +1202,22 @@
 
 
         <script src="application.js" type="text/javascript" ></script>
+        <script src="fastclick.js" type="text/javascript" ></script>
         <script>
             $(document).ready(function() {
-                $("a").on("click touchend", function(e) {
+/*                 $("a").on("click touchend", function(e) {
                     var el = $(this);
                     var link = el.attr("href");
                     window.location = link;
-                });
+                }); */
+                FastClick.attach(document.body);
                 // $("button").on("click touchend", function(e) {
                 //     var el = $(this);
                 //     var link = el.attr("type");
                 //     window.location = link;
                 // });
             });
+
         </script>
 		<!-- <script src="https://epecas.rodobens.com.br/assets/amazonMobile/product-3e3414dc59b10ce19a0c86d1ba58d732.js" type="text/javascript" ></script> -->
 		<!-- <script src="https://epecas.rodobens.com.br/assets/amazonMobile/formMasks-d01acb956bbc00bfb7ec686b3acfcc98.js" type="text/javascript" ></script> -->

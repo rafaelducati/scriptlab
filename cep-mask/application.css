@@ -73,7 +73,6 @@ html {
 
   a {
 	background-color: transparent;
-	-webkit-text-decoration-skip: objects;
   }
 
   a:active,
@@ -391,18 +390,6 @@ html {
 	cursor: pointer;
   }
 
-  a,
-  area,
-  button,
-  [role="button"],
-  input,
-  label,
-  select,
-  summary,
-  textarea {
-	-ms-touch-action: manipulation;
-		touch-action: manipulation;
-  }
 
   table {
 	border-collapse: collapse;
@@ -23294,12 +23281,12 @@ table.table-custom .sellers-table-name {
 }
 
 /* line 250, amazonMobile/_cartNew.scss */
-.button-area {
+/* .button-area {
   display: flex;
   align-items: stretch;
   justify-content: center;
   flex-direction: column;
-}
+} */
 
 /* line 2, amazonMobile/_icons.scss */
 .y-icon-cart:before {

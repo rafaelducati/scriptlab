@@ -349,17 +349,17 @@
                                     <input type="hidden" name="model" value="" />
                                     <input type="hidden" name="year" value="" />
                                     <div class="quantity-field">
-                                        <span class="quantity-button remove">
+                                        <div class="quantity-button remove">
                                                 <i class="material-icons">remove</i>
-                                        </span>
-                                        <input class="quantity-number" type="number" name="quantity" value="1" min="1" max="{{sku.bestPrice.stockTotal}}" data-max-value="{{sku.bestPrice.stockTotal}}" data-mask="0#" id="quantity-value" />
-                                        <span class="quantity-button add">
+                                        </div>
+                                        <input style="font-size: 16px;" class="quantity-number" type="number" name="quantity" value="1" min="1" max="{{sku.bestPrice.stockTotal}}" data-max-value="{{sku.bestPrice.stockTotal}}" data-mask="0#" id="quantity-value" />
+                                        <div class="quantity-button add">
                                             <i class="material-icons">add</i>
-                                        </span>
+                                        </div>
                                     </div>
-                                    <button class="buy-button button primary w-100" type="submit" name="" value="" style="font-size:16px; background: orange" >ADD</button>
+                                    <button class="buy-button button primary w-100" type="submit" name="" value="" style="font-size:16px; background: green" >ADD</button>
 
-                                        <a href="https://www.google.com" class="buy-button button primary w-100" style="background: rgb(255, 47, 255); font-size:16px;" >ADD 2</a>
+                                        <a href="https://www.google.com" class="buy-button button primary w-100" style="background: greenyellow; font-size:16px;" >ADD 2</a>
 
                                 </form>
 

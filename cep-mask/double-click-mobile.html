@@ -342,24 +342,24 @@
                         <div class="buy" data-template="sku-buy-template" data-sku-id="3509139" data-seller="">
 
                                 <span class="quantity-title">Quantidade</span>
-                                <form method="post" action="/p/adicionar" class="form-quantity" onsubmit="jQuery(this).find('button[type=submit]').attr('disabled', 'disabled');">
+                                <form method="post" action="/p/adicionar" class="form-quantity" >
                                     <input type="hidden" name="id" value="{{sku.bestPrice.stockId}}" />
                                     <input type="hidden" name="vehicle" value="" />
                                     <input type="hidden" name="make" value="" />
                                     <input type="hidden" name="model" value="" />
                                     <input type="hidden" name="year" value="" />
                                     <div class="quantity-field">
-                                        <a class="quantity-button remove">
+                                        <span class="quantity-button remove">
                                                 <i class="material-icons">remove</i>
-                                        </a>
+                                        </span>
                                         <input style="font-size: 16px;" class="quantity-number" type="number" name="quantity" value="1" min="1" max="{{sku.bestPrice.stockTotal}}" data-max-value="{{sku.bestPrice.stockTotal}}" data-mask="0#" id="quantity-value" />
-                                        <a class="quantity-button add">
+                                        <span class="quantity-button add">
                                             <i class="material-icons">add</i>
-                                        </a>
+                                        </span>
                                     </div>
-                                    <button class="buy-button button primary w-100" type="submit" name="" value="" style="font-size:16px; background: yellow" >ADD</button>
+                                    <button class="buy-button button primary w-100" type="submit" name="" value="" style="font-size:16px; background: pink" >BUTTON</button>
 
-                                        <a href="https://www.google.com" class="buy-button button primary w-100" style="background: greenyellow; font-size:16px;" >ADD 2</a>
+                                        <a href="https://www.google.com" class="buy-button button primary w-100" style="background: greenyellow; font-size:16px;" >LINK</a>
 
                                 </form>
 

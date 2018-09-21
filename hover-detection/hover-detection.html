@@ -24,18 +24,26 @@
     <meta name="layout" content="" />
     <meta name="description" content="Page description" />
     <style>
-        a:link {
+        a:link,
+        button {
             color: red;
             font-size: 3em;
         }
 
-        a:hover {
+        a:hover,
+        button:hover {
             color: blue;
         }
 
+        a:active,
+        button:active {
+            color: pink;
+        }
+
         @media (hover: none) {
-            a:link {
-                color: red;
+            a:link,
+            button {
+                color: green;
             }
         }
 
@@ -58,11 +66,12 @@
 </head>
 
 <body>
-    <p>Hoverable pointer detected: <span class="detection"></span>
+    <p>Hoverable pointer detected: <strong class="detection"></strong>
         <p>
             <p>Link below should be red, then blue when hovered. If on a device where the primary pointer doesn't have
                 a hover state, the link should always be red.</p>
             <a href="#">Link</a>
+            <button type="submit">Button</button>
 </body>
 
 </html>

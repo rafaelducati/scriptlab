@@ -353,7 +353,7 @@
                                         </span>
                                     </div>
                                     <button class="buy-button button primary w-100" type="submit" name="" value="" style="background: yellow;" >Adicionar ao carrinho</button>
-                                    <button class="buy-button button primary w-100" type="submit" name="" value="" style="background: greenyellow;" >Adicionar ao carrinho 2</button>
+                                    <a class="buy-button button primary w-100" style="background: greenyellow;" >Adicionar ao carrinho 2</a>
                                 </form>
 
                         </div>
@@ -1202,13 +1202,18 @@
                     window.location = link;
                 }); */
                 FastClick.attach(document.body);
-                // $("button").on("click touchend", function(e) {
-                //     var el = $(this);
-                //     var link = el.attr("type");
-                //     window.location = link;
-                // });
+                /* $("button").on("click touchend", function(e) {
+                     var el = $(this);
+                     var link = el.attr("type");
+                     window.location = link;
+                 }); */
             });
-
+            $(document).on('touchstart click', 'button', function(event){
+                if(event.handled === false) return
+                event.stopPropagation();
+                event.preventDefault();
+                event.handled = true;
+            });
         </script>
 		<!-- <script src="https://epecas.rodobens.com.br/assets/amazonMobile/product-3e3414dc59b10ce19a0c86d1ba58d732.js" type="text/javascript" ></script> -->
 		<!-- <script src="https://epecas.rodobens.com.br/assets/amazonMobile/formMasks-d01acb956bbc00bfb7ec686b3acfcc98.js" type="text/javascript" ></script> -->

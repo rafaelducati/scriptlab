@@ -357,7 +357,7 @@
                                             <i class="material-icons">add</i>
                                         </span>
                                     </div>
-                                    <button class="buy-button button primary w-100" type="submit" name="" value="" style="" id="btn-buy" >BUTTON5</button>
+                                    <button class="buy-button button primary w-100" type="submit" name="" value="" style="" id="btn-buy" >BUTTON6</button>
 
                                     <!-- <a href="https://www.google.com" class="buy-button button primary w-100" style="" >LINK1</a> -->
 
@@ -1202,10 +1202,11 @@
         <script src="application.js" type="text/javascript" ></script>
         <script src="fastclick.js" type="text/javascript" ></script>
         <script>
-            window.onload=function() {
-                document.querySelectorAll("button").disabled=false;
-            }
+
             $(document).ready(function() {
+                window.onload=function() {
+                    document.getElementById("btn-buy").disabled=false;
+                }
                 // $('button').prop('disabled',false);
 /*                 $("a").on("click touchend", function(e) {
                     var el = $(this);

@@ -20,32 +20,34 @@ input[type=checkbox] {
 	height:50px!important; */
 }
 input[type=radio] {
-  -webkit-appearance: radio;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
-  width: 16px!important;;
-  height: 16px!important;;
+  -webkit-appearance: radio!important;
+  appearance: radio!important;
+  border-top-left-radius: 20px!important;
+  border-top-right-radius: 20px!important;
+  border-bottom-right-radius: 20px!important;
+  border-bottom-left-radius: 20px!important;
+  width: 40px!important;
+  height: 40px!important;
   padding-top: 0px;
   padding-right: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
-  background-color: rgba(255, 255, 255, 0.00784314);
+  background-color: rgba(255, 255, 255, 0.00784314)!important;
 }
 input[type=checkbox] {
-  -webkit-appearance: checkbox;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  width: 16px;
-  height: 16px;
+  -webkit-appearance: checkbox!important;
+  appearance: checkbox!important;
+  border-top-left-radius: 5px!important;
+  border-top-right-radius: 5px!important;
+  border-bottom-right-radius: 5px!important;
+  border-bottom-left-radius: 5px!important;
+  width: 40px!important;
+  height: 40px!important;
   padding-top: 0px;
   padding-right: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
-  background-color: rgba(255, 255, 255, 0.00784314);
+  background-color: rgba(255, 255, 255, 0.00784314)!important;
 }
 
 	</style>
@@ -3970,94 +3972,98 @@ input[type=checkbox] {
 										</div>
 									</div>
 
-									<div class="freight-options">
-											<div class="title tb-title-2">
-												TIpo de Entrega
-											</div>
+<div class="freight-options">
+	<div class="title tb-title-2">
+		TIpo de Entrega
+	</div>
+	<div class="inner">
+		<div class="freight-option-select form-group form-group-md">
+			<span class="w-60">
+				<label class="d-flex align-f-start w-100">
+					<input class="pickup-in-store-radio" data-warehouse-id="2279" data-freight-value="R$ 0,00" type="radio" id="radio22790"
+					 name="sellerFreight2279" value='{"2279": {"name": "Retirada na Loja", "type": "PICKUP_IN_STORE", "intelipostQuoteId": "", "intelipostDeliveryMethodId": "", "deliveryNote": ""}}'
+					 required>
+					 Retirada na Loja
+				</label>
 
-											<div class="inner">
-
-
-														<div class="freight-option-select form-group form-group-md">
-                                                            <span class="w-60">
-                                                                <label class="d-flex align-f-start w-100">
-
-                                                                        <input class="pickup-in-store-radio" data-warehouse-id="2279" data-freight-value="R$ 0,00" type="radio" id="radio22790" name="sellerFreight2279" value='{"2279": {"name": "Retirada na Loja", "type": "PICKUP_IN_STORE", "intelipostQuoteId": "", "intelipostDeliveryMethodId": "", "deliveryNote": ""}}' required>
-
-
-                                                                    Retirada na Loja
-
-                                                                </label>
-
-                                                                    <p class="pickup-in-store">
-                                                                        <select class="form-control mt-md" name="pickupInStoreId2279">
-
-                                                                                <option value="334">MG -
-                                                                                Contagem -
-                                                                                Via Expressa de Contagem,
-                                                                                3600 -
-                                                                                    32370-485</option>
-
-                                                                        </select>
-                                                                    </p>
-
-																		<p class="pickup-in-store-delivery-note">
-																			<input name="deliveryNote-2279" id="deliveryNote-2279" class="form-control margin-top pickup-in-store-radio pickup-in-store-delivery" type="text" placeholder="Observação - Nome da transportadora" maxlength="200" />
-																		</p>
+				<p class="pickup-in-store">
+					<select class="form-control mt-md" name="pickupInStoreId2279">
+						<option value="334">MG -
+							Contagem -
+							Via Expressa de Contagem,
+							3600 -
+							32370-485</option>
+					</select>
 
 
-                                                            </span>
-															<span class="w-40 t-right">
+				</p>
 
-																	Grátis
+				<p class="pickup-in-store-delivery-note">
+					<input name="deliveryNote-2279" id="deliveryNote-2279" class="form-control margin-top pickup-in-store-radio pickup-in-store-delivery"
+					 type="text" placeholder="Observação - Nome da transportadora" maxlength="200" />
+				</p>
 
-															</span>
-														</div>
+			</span>
+			<span class="w-40 t-right">Grátis</span>
+		</div>
 
-														<div class="freight-option-select form-group form-group-md">
-                                                            <span class="w-60">
-                                                                <label class="d-flex align-f-start w-100">
+		<div class="freight-option-select form-group form-group-md">
+			<span class="w-60">
+				<label class="d-flex align-f-start w-100">
 
-                                                                        <input class="" data-warehouse-id="2279" data-freight-value="R$ 90,45" type="radio" id="radio22791" name="sellerFreight2279" value='{"2279": {"name": "Rodonaves Standard", "type": "INTELIPOST", "intelipostQuoteId": "5006969896", "intelipostDeliveryMethodId": "41", "deliveryNote": ""}}' required>
+					<input class="" data-warehouse-id="2279" data-freight-value="R$ 90,45" type="radio" id="radio22791" name="sellerFreight2279"
+					 value='{"2279": {"name": "Rodonaves Standard", "type": "INTELIPOST", "intelipostQuoteId": "5006969896", "intelipostDeliveryMethodId": "41", "deliveryNote": ""}}'
+					 required>
+					 Rodonaves Standard em até 3 dias úteis
+				</label>
+
+			</span>
+			<span class="w-40 t-right">
+
+				R$ 90,45
+
+			</span>
+		</div>
+
+		<div class="freight-option-select form-group form-group-md">
+			<span class="w-60">
+				<label class="d-flex align-f-start w-100">
+
+					<input class="" data-warehouse-id="2279" data-freight-value="R$ 34,91" type="radio" id="radio22792" name="sellerFreight2279"
+					 value='{"2279": {"name": "Tnt Standard", "type": "INTELIPOST", "intelipostQuoteId": "5006969896", "intelipostDeliveryMethodId": "25", "deliveryNote": ""}}'
+					 required>
 
 
-                                                                    Rodonaves Standard
+					Tnt Standard
 
-                                                                        em até 3 dias úteis
+					em até 5 dias úteis
 
-                                                                </label>
+				</label>
 
-                                                            </span>
-															<span class="w-40 t-right">
+			</span>
+			<span class="w-40 t-right">
 
-																	R$ 90,45
+				R$ 34,91
 
-															</span>
-														</div>
+			</span>
+		</div>
 
-														<div class="freight-option-select form-group form-group-md">
-                                                            <span class="w-60">
-                                                                <label class="d-flex align-f-start w-100">
-
-                                                                        <input class="" data-warehouse-id="2279" data-freight-value="R$ 34,91" type="radio" id="radio22792" name="sellerFreight2279" value='{"2279": {"name": "Tnt Standard", "type": "INTELIPOST", "intelipostQuoteId": "5006969896", "intelipostDeliveryMethodId": "25", "deliveryNote": ""}}' required>
+	</div>
+</div>
 
 
-                                                                    Tnt Standard
 
-                                                                        em até 5 dias úteis
-
-                                                                </label>
-
-                                                            </span>
-															<span class="w-40 t-right">
-
-																	R$ 34,91
-
-															</span>
-														</div>
-
-												</div>
-									</div>
+<!-- end freight-options -->
+<label class="d-flex align-f-start w-100">
+	<input class="pickup-in-store-radio" data-warehouse-id="2279" data-freight-value="R$ 0,00" type="radio" id="radio22790"
+	 name="sellerFreight2279" value='{"2279": {"name": "Retirada na Loja", "type": "PICKUP_IN_STORE", "intelipostQuoteId": "", "intelipostDeliveryMethodId": "", "deliveryNote": ""}}'
+	 required>
+	 Retirada na Loja 2
+</label>
+<input class="pickup-in-store-radio" data-warehouse-id="2279" data-freight-value="R$ 0,00" type="radio" id="radio22790"
+	 name="sellerFreight2279" value='{"2279": {"name": "Retirada na Loja", "type": "PICKUP_IN_STORE", "intelipostQuoteId": "", "intelipostDeliveryMethodId": "", "deliveryNote": ""}}'
+	 required>
+	 Retirada na Loja 3 sem label
 								</div>
 							</div>
 

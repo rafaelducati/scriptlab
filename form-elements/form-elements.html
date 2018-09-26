@@ -19,6 +19,9 @@ input[type=checkbox] {
 	/* width:50px;
 	height:50px; */
 }
+.checkout-ship-options .freight-store {
+	margin: 0;
+}
 label {
 	padding: 0;
 	margin:0;
@@ -94,72 +97,12 @@ input[type=checkbox] {
 
 
 
-<header >
-	<div class="container d-flex align-center justify-between">
-		<h1 id="logo" class="f-1 p-md">
-			<a href="/" itemprop="url">
-				<img src="https://images.stg.canaldapeca.com.br/fornecedores/m/tracbeldigital.jpg" alt="Tracbel.Digital logotipo" />
-			</a>
-		</h1>
-		<p><i class="fa fa-lock"></i> <span class="t-secondary">Ambiente Seguro</span></p>
-	</div>
-	<div id="progressCart">
-		<ul class="steps ">
-			<li class="d-flex active">
-				<div class="circle">
-					<i class="fa fa-user"></i>
-				</div>
-				<small class="f-1">Identificação</small>
-			</li>
 
-			<li class="d-flex active">
-				<div class="circle">
-					<i class="fa fa-truck flip-h"></i>
-				</div>
-				<small class="f-1">Frete</small>
-			</li>
-
-			<li class="d-flex ">
-				<div class="circle">
-					<i class="fa fa-credit-card"></i>
-				</div>
-				<small class="f-1">Pagamento</small>
-			</li>
-
-			<li class="d-flex ">
-				<div class="circle">
-					<i class="fa fa-cube"></i>
-				</div>
-				<small class="f-1">Sucesso</small>
-			</li>
-		</ul>
-		<div class="progress">
-			<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
-		</div>
-	</div>
-
-
-</header>
 
 		<main class='container checkout' >
 			<!-- Step 1 -->
 			<div class="checkout-address-options hide">
-				<div class="checkout-options-header">
-					<div class="title mb-lg">
-						<div class="tb-title-2">
-							Escolha um endereço de entrega
-						</div>
-					</div>
 
-
-						<div class="new-address">
-							<label class="tb-btn black hv-tr" for="address-toggle">
-								<span class="glyphicon glyphicon-plus-sign"> </span>
-								Cadastrar Novo Endereço
-							</label>
-						</div>
-
-				</div>
 				<form action="/escolher-endereco" method="post" name="addressForm" id="addressForm" >
 					<div class="checkout-address-options-body">
 						<input type="hidden" name="step" value="next">
@@ -3925,60 +3868,14 @@ input[type=checkbox] {
 						<input type="hidden" name="warehouses" value="[2279]" />
 						<input type="hidden" name="addressId" value="470" />
 
-					<div class="checkout-options-header">
-								<div class="title">
-									<h2 class="tb-title-2">
-										Escolha as opcões de entrega
-									</h2>
 
-									<div class="address-line">
-										<i class="fa fa-circle" aria-hidden="true"></i>
-										Rua Pamplona, 988, 3 andar
-										CEP 01405-001 São Paulo, SP
-									</div>
-								</div>
-
-								<div class="new-address">
-									<a href="/escolha-frete" class="tb-btn black hv-tr">
-										<i class="fa fa-exchange" aria-hidden="true"></i>
-										Alterar Endereço de Entrega
-									</a>
-								</div>
-							</div>
 
 
 
 
 							<div class="freight-store clearfix">
 								<div class="freight-box">
-									<div class="box-resume">
-										<div class="title tb-title-2">
-											Entrega 1 de 1
-										</div>
 
-										<div class="inner">
-											<div class="seller-info mt-none">
-												<div class="seller-name">
-													Vendido por <strong>Tracbel Contagem</strong>
-												</div>
-
-												<div class="seller-address pb-md pt-xs">
-													Via Expressa de Contagem,  Contagem - MG
-												</div>
-											</div>
-
-
-											<div class="a-product-info">
-
-													<div class="product-vr">
-														<span class="p-qty">1</span>
-														<span class="p-name">Filtro de Combustivel - Original Volvo - 15126069 - Unitário</span>
-													</div>
-
-
-											</div>
-										</div>
-									</div>
 
 <div class="freight-options">
 	<div class="title tb-title-2">
@@ -4059,7 +3956,11 @@ input[type=checkbox] {
 	</div>
 </div>
 
-
+<label class="d-flex align-f-start w-100">
+    <input class="" type="checkbox" id="check2790"
+     name="sellerFreight2279" value='test'>
+    Checkbox example
+</label>
 
 <!-- end freight-options -->
 <label class="d-flex align-f-start w-100">

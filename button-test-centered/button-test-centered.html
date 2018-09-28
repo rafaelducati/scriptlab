@@ -20,7 +20,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<title>Tracbel.Digital</title>
-	<link rel="stylesheet" href="https://www.stg.tracbel.digital/assets/amazonMobile/application.css"/>
+	<link rel="stylesheet" href="application-stg-compiled.css"/>
 
 
 		<link rel="icon" type="image/png" sizes="16x16" href="https://images.canaldapeca.com.br/multimidia/2750/favicon-1527532783504.png">
@@ -142,23 +142,9 @@
                 <!-- Buttons -->
 
                 <div class="buy" data-template="sku-buy-template" data-sku-id="4546752" data-seller="" style="">
-                    <span class="quantity-title">Quantidade</span>
+
                     <form method="post" action="/p/adicionar" class="form-quantity" onsubmit="jQuery(this).find('button[type=submit]').prop('disabled', true);">
-                        <input type="hidden" name="id" value="32266382">
-                        <input type="hidden" name="vehicle" value="">
-                        <input type="hidden" name="make" value="">
-                        <input type="hidden" name="model" value="">
-                        <input type="hidden" name="year" value="">
-                        <div class="quantity-field">
-                            <span class="quantity-button remove">
-                                    <i class="material-icons">remove</i>
-                            </span>
-                            <input class="quantity-number" type="number" name="quantity" value="1" min="1" max="162" data-max-value="162" data-mask="0#" id="quantity-value">
-                            <span class="quantity-button add">
-                                <i class="material-icons">add</i>
-                            </span>
-                        </div>
-                        <button class="buy-button button primary w-100" type="submit" name="" value="">Adicionar ao carrinho</button>
+                        <button class="buy-button button primary w-100" type="submit" name="" value=""><span>Adicionar ao carrinho</span></button>
                     </form>
                 </div>
                 <div class="panel-footer cart-footer">
@@ -168,19 +154,19 @@
 
                     <div class="buttons">
                         <div class="button-area mt-lg">
-                            <button type="submit" class="tb-btn button primary hv-black y-fixed-bt" style="bottom: 140px">Finalizar compra (1)</button>
+                            <button type="submit" class="w-100 tb-btn button primary hv-black y-fixed-bt" style="bottom: 140px"><span>Finalizar compra (1)</span></button>
                         </div>
                     </div>
                 </div>
                 <div class="checkout-address-options-footer">
                         <a id="choose-adress" href="javascript:void(0)" class="w-100 tb-btn button primary hv-black y-fixed-bt" style="bottom: 70px">
-                            Finalizar Compra (2)
+                            <span>Finalizar Compra (2)</span>
                         </a>
                     </div>
                 <div class="checkout-ship-options-footer">
 
                         <a href="javascript:void(0)" class="tb-btn hv-black button primary freight-submit-form finish-order y-fixed-bt">
-                            Finalizar pedido (3)<span class="glyphicon glyphicon-chevron-right"></span>
+                            <span>Finalizar pedido (3)</span><span class="glyphicon glyphicon-chevron-right"></span>
                         </a>
                         <button type="submit" class="btn btn-success btn-lg btn-payment">Efetuar pagamento <span class="glyphicon glyphicon-chevron-right"></span></button>
 
@@ -263,7 +249,7 @@
                                             </div>
                                             <select class="filter-select y-vehicle" data-placeholder="Equipamento"><option value="">Equipamento</option><option value="Caminhões Articulados">Caminhões Articulados</option><option value="Carregadeira de Rodas">Carregadeira de Rodas</option><option value="Escavadeira">Escavadeira</option><option value="Feller Bunchers">Feller Bunchers</option><option value="Minicarregadeira">Minicarregadeira</option><option value="Miniescavadeiras">Miniescavadeiras</option><option value="Motoniveladoras">Motoniveladoras</option><option value="Pavimentadoras">Pavimentadoras</option><option value="Pipelayers">Pipelayers</option><option value="Retroescavadeiras">Retroescavadeiras</option><option value="Rolos compactadores">Rolos compactadores</option></select>
                                         </div>
-                                        <div class="filter-select-container disabled">
+                                        <div class="filter-select-container ">
                                             <div class="filter-select-loading">
                                                 <i class="fa fa-circle-o-notch fa-spin"></i>
                                                 <span>
@@ -272,7 +258,7 @@
                                             </div>
                                             <select class="filter-select y-brand" data-placeholder="Marca"></select>
                                         </div>
-                                        <div class="filter-select-container disabled">
+                                        <div class="filter-select-container ">
                                             <div class="filter-select-loading">
                                                 <i class="fa fa-circle-o-notch fa-spin"></i>
                                                 <span>
@@ -284,7 +270,7 @@
                                         <div class="filter-select-container input-text">
                                             <input type="text" class="filter-select y-year" placeholder="Número de Série">
                                         </div>
-                                        <button type="submit" class="filter-button button secondary" disabled=""><span>Filtrar</span></button>
+                                        <button type="submit" class="filter-button button secondary" ><span>Filtrar</span></button>
                                     </div>
                                 </div>
                             </div>
@@ -318,7 +304,7 @@
 
                     <p class="t-center">Para inserir produtos no seu carrinho, navegue pela busca do site.</p>
 
-                    <a href="/" class="button primary md h-default mt-md">Voltar a página inicial</a>
+                    <a href="#" class="button primary md h-default mt-md">Voltar a página inicial</a>
                 </div>
 
 

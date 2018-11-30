@@ -1,0 +1,4271 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js" style="--primaryColor:#fee600;--secondaryColor:#343434;"><!--<![endif]-->
+<head>
+
+
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WTRP4MJ');</script>
+
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Tracbel.Digital</title>
+    <!-- <link rel="stylesheet" href="https://www.stg.tracbel.digital/assets/amazonMobile/application.css"/> -->
+    <link rel="stylesheet" href="application-font-not-so-awesome.css"/>
+
+
+		<link rel="icon" type="image/png" sizes="16x16" href="https://images.canaldapeca.com.br/multimidia/2750/favicon-1527532783504.png">
+
+
+	<link rel="manifest" href="https://www.stg.tracbel.digital/assets/amazonMobile/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="https://www.stg.tracbel.digital/assets/amazonMobile/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+
+
+<script>var enviroment="production";</script>
+
+
+
+
+	<meta name="layout" content="amazonMobile/checkout"/>
+
+</head>
+<body>
+
+
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WTRP4MJ"
+                          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+
+	<div id="wrapper">
+
+
+
+
+
+
+
+
+
+
+
+<header >
+
+    <nav class="header">
+        <div class="container mb-sm p-none">
+            <div class="row no-gutters">
+                <nav class="main-nav flex">
+					<h1 class="logo">
+						<a href="/" itemprop="url">
+							<img src="https://images.canaldapeca.com.br/fornecedores/m/tracbeldigital.jpg" alt="Tracbel.Digital logotipo" />
+						</a>
+					</h1>
+					<p class="m-none">
+						<i class="fa fa-lock"></i>
+						<span class="t-secondary t-bold ml-xs">Ambiente Seguro</span>
+					</p>
+				</nav>
+			</div>
+		</div>
+	</nav>
+
+	<div id="progressCart">
+		<ul class="steps ">
+			<li class="d-flex active">
+				<div class="circle">
+					<i class="fa fa-user"></i>
+				</div>
+				<small class="f-1 t-secondary ">Identificação</small>
+			</li>
+
+			<li class="d-flex active">
+				<div class="circle">
+					<i class="fa fa-truck flip-h"></i>
+				</div>
+				<small class="f-1 t-secondary">Frete</small>
+			</li>
+
+			<li class="d-flex ">
+				<div class="circle">
+					<i class="fa fa-credit-card"></i>
+				</div>
+				<small class="f-1 t-secondary">Pagamento</small>
+			</li>
+
+			<li class="d-flex ">
+				<div class="circle">
+					<i class="fa fa-cube"></i>
+				</div>
+				<small class="f-1 t-secondary">Sucesso</small>
+			</li>
+		</ul>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+		</div>
+	</div>
+
+
+</header>
+
+		<main class='container checkout' >
+			<!-- Step 1 -->
+			<div class="checkout-address-options hide">
+				<div class="checkout-options-header">
+					<div class="title mb-lg">
+						<div class="tb-title-2">
+							Escolha um endereço de entrega
+						</div>
+					</div>
+
+
+						<div class="new-address">
+							<label class="tb-btn black hv-tr" for="address-toggle">
+								<span class="glyphicon glyphicon-plus-sign"> </span>
+								Cadastrar Novo Endereço
+							</label>
+						</div>
+
+				</div>
+				<form action="/escolher-endereco" method="post" name="addressForm" id="addressForm" >
+					<div class="checkout-address-options-body">
+						<input type="hidden" name="step" value="next">
+
+
+
+
+								<label
+										class="address-box "
+										for="userAddress00">
+									<div
+											for="userAddress00"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress00" name="userAddress" value="470" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">João das Neves</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Pamplona 987 3 andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 01405-001</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress01">
+									<div
+											for="userAddress01"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress01" name="userAddress" value="3483" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Triplex</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Doutor João Maia 100 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04109-130</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress02">
+									<div
+											for="userAddress02"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress02" name="userAddress" value="4225" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste nosso</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Avenida Presidente Juscelino Kubitschek 1400 etc</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04543-000</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress03">
+									<div
+											for="userAddress03"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress03" name="userAddress" value="4269" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste Calegari</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Parnamirim 211 opa</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 05331-020</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress04">
+									<div
+											for="userAddress04"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress04" name="userAddress" value="6472" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Sitio de Atibaia</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Francisco de Almada N. 145A </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 03579-280</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress05">
+									<div
+											for="userAddress05"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress05" name="userAddress" value="12890" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Zona Leste de São Paulo</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Avenida Sapopemba 12000 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 03989-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress06">
+									<div
+											for="userAddress06"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress06" name="userAddress" value="20639" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Casa</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Alcides Munhoz 100 Casa</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 80710-030</span>
+											<br>
+											<span class="state"> Curitiba - PR</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress07">
+									<div
+											for="userAddress07"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress07" name="userAddress" value="20671" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Brasilia</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Área Especial 2-A Módulo B 04 Conjunto B</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 71070-623</span>
+											<br>
+											<span class="state"> Brasília - DF</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress08">
+									<div
+											for="userAddress08"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress08" name="userAddress" value="23290" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Presidente Prudente</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Maria Aparecida Cuissi Cesco 100 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 19025-812</span>
+											<br>
+											<span class="state"> Presidente Prudente - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress09">
+									<div
+											for="userAddress09"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress09" name="userAddress" value="30836" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Liberdade</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua da Glória 153 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 01510-001</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress010">
+									<div
+											for="userAddress010"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress010" name="userAddress" value="31764" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Acre</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Teste 1236 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 69350-000</span>
+											<br>
+											<span class="state"> Alto Alegre - AC</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress011">
+									<div
+											for="userAddress011"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress011" name="userAddress" value="45753" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Rio de Janeiro</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Anita Garibaldi 100 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 22041-080</span>
+											<br>
+											<span class="state"> Rio de Janeiro - RJ</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress012">
+									<div
+											for="userAddress012"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress012" name="userAddress" value="51616" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Casa teste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Alméria 11111 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 06704-260</span>
+											<br>
+											<span class="state"> Cotia - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress013">
+									<div
+											for="userAddress013"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress013" name="userAddress" value="53146" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">empresa mg</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Avenida Comendador Alexandrino Garcia 1 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 38402-288</span>
+											<br>
+											<span class="state"> Uberlândia - MG</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress014">
+									<div
+											for="userAddress014"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress014" name="userAddress" value="53242" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Minas Gerais</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Via Expressa de Contagem 100 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 32370-485</span>
+											<br>
+											<span class="state"> Contagem - MG</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress015">
+									<div
+											for="userAddress015"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress015" name="userAddress" value="53243" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Belo Horizonte</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Duzentos e Quinze 100 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 31510-090</span>
+											<br>
+											<span class="state"> Belo Horizonte - MG</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress016">
+									<div
+											for="userAddress016"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress016" name="userAddress" value="53380" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste Thiago</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Conde Luiz E. Matarazzo 250 Bloco AA - Apto 41</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 05356-000</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress017">
+									<div
+											for="userAddress017"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress017" name="userAddress" value="55104" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">belem</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Avenida Nazaré 20 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 66035-445</span>
+											<br>
+											<span class="state"> Belém - PA</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress018">
+									<div
+											for="userAddress018"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress018" name="userAddress" value="55128" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste Guilherme B2B</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Avenida Diogo de Azevedo 516 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 05376-140</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress019">
+									<div
+											for="userAddress019"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress019" name="userAddress" value="55168" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">JURUNAS</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Avenida Roberto Camelier 9090 9090</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 66025-442</span>
+											<br>
+											<span class="state"> Belém - PA</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress020">
+									<div
+											for="userAddress020"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress020" name="userAddress" value="55228" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Avenida Diogo de Azevedo 516 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 05376-140</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress021">
+									<div
+											for="userAddress021"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress021" name="userAddress" value="55254" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">vtex</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Avenida Doutor Guilherme Dumont Villares 3126 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 05640-004</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress022">
+									<div
+											for="userAddress022"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress022" name="userAddress" value="55257" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Guilherme F Neves</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Inácio Manuel Álvares 516 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 05372-110</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress023">
+									<div
+											for="userAddress023"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress023" name="userAddress" value="55288" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Guilherme F Neves</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Inácio Manuel Álvares 516 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 05372-110</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress024">
+									<div
+											for="userAddress024"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress024" name="userAddress" value="55418" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Escritório</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Avenida Rebouças 1484 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 05402-100</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress025">
+									<div
+											for="userAddress025"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress025" name="userAddress" value="55857" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Escritório Guarulhos</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Praça Anita 100 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 07194-380</span>
+											<br>
+											<span class="state"> Guarulhos - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress026">
+									<div
+											for="userAddress026"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress026" name="userAddress" value="57196" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">SP</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Martim Francisco 123 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 01226-001</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress027">
+									<div
+											for="userAddress027"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress027" name="userAddress" value="57547" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Outr</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 oitavo andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress028">
+									<div
+											for="userAddress028"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress028" name="userAddress" value="57548" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Outros</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 oitavo andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress029">
+									<div
+											for="userAddress029"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress029" name="userAddress" value="57549" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Outros</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 oitavo andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress030">
+									<div
+											for="userAddress030"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress030" name="userAddress" value="57550" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Outros</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 oitavo andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress031">
+									<div
+											for="userAddress031"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress031" name="userAddress" value="57552" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Outros</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 oitavo andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress032">
+									<div
+											for="userAddress032"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress032" name="userAddress" value="57754" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">hfffew - edit ddTeTesteTesteTesteTesteTTeTesteTesteTesteTeTesteTesteTeste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Atucupe stesteesteste4 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 05792-050</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress033">
+									<div
+											for="userAddress033"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress033" name="userAddress" value="57800" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 3 andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress034">
+									<div
+											for="userAddress034"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress034" name="userAddress" value="57803" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 3 andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress035">
+									<div
+											for="userAddress035"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress035" name="userAddress" value="57901" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 3 andargh</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress036">
+									<div
+											for="userAddress036"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress036" name="userAddress" value="57919" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 4413 andar </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress037">
+									<div
+											for="userAddress037"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress037" name="userAddress" value="57922" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 3 andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress038">
+									<div
+											for="userAddress038"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress038" name="userAddress" value="57924" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 3 andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress039">
+									<div
+											for="userAddress039"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress039" name="userAddress" value="57905" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 3 andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress040">
+									<div
+											for="userAddress040"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress040" name="userAddress" value="57903" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Atucupe 44 terceiro andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 05792-050</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress041">
+									<div
+											for="userAddress041"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress041" name="userAddress" value="57902" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 3 andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress042">
+									<div
+											for="userAddress042"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress042" name="userAddress" value="57966" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Atucupe 441 3 andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 05792-050</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress043">
+									<div
+											for="userAddress043"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress043" name="userAddress" value="57972" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 3 andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress044">
+									<div
+											for="userAddress044"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress044" name="userAddress" value="57990" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">O</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 oitavo andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress045">
+									<div
+											for="userAddress045"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress045" name="userAddress" value="57993" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Outros</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 oitavo andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress046">
+									<div
+											for="userAddress046"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress046" name="userAddress" value="58016" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste&#96;</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Martim Francisco 22 eed</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 01226-001</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress047">
+									<div
+											for="userAddress047"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress047" name="userAddress" value="58338" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 41 oi</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress048">
+									<div
+											for="userAddress048"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress048" name="userAddress" value="58353" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 41 oi</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress049">
+									<div
+											for="userAddress049"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress049" name="userAddress" value="58340" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 41 oi</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress050">
+									<div
+											for="userAddress050"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress050" name="userAddress" value="58354" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 41 oi</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress051">
+									<div
+											for="userAddress051"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress051" name="userAddress" value="58366" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 41 oi</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress052">
+									<div
+											for="userAddress052"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress052" name="userAddress" value="58348" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 41 oi</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress053">
+									<div
+											for="userAddress053"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress053" name="userAddress" value="58352" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 41 oi</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress054">
+									<div
+											for="userAddress054"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress054" name="userAddress" value="58341" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 41 oi</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress055">
+									<div
+											for="userAddress055"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress055" name="userAddress" value="58343" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 41 oi</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress056">
+									<div
+											for="userAddress056"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress056" name="userAddress" value="58356" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 41 oi</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress057">
+									<div
+											for="userAddress057"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress057" name="userAddress" value="58350" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 41 oi</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress058">
+									<div
+											for="userAddress058"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress058" name="userAddress" value="58334" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 41 oi</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress059">
+									<div
+											for="userAddress059"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress059" name="userAddress" value="58374" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 41 oi</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress060">
+									<div
+											for="userAddress060"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress060" name="userAddress" value="58347" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 41 oi</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress061">
+									<div
+											for="userAddress061"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress061" name="userAddress" value="58462" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 41 oi</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress062">
+									<div
+											for="userAddress062"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress062" name="userAddress" value="58461" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 41 oi</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress063">
+									<div
+											for="userAddress063"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress063" name="userAddress" value="58631" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste nosso</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 324 etc</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress064">
+									<div
+											for="userAddress064"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress064" name="userAddress" value="58635" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste nosso</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 324 etc</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress065">
+									<div
+											for="userAddress065"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress065" name="userAddress" value="58638" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste nosso</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 324 etc</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress066">
+									<div
+											for="userAddress066"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress066" name="userAddress" value="58639" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste nosso</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 324 etc</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress067">
+									<div
+											for="userAddress067"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress067" name="userAddress" value="58623" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste nosso</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 324 etc</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress068">
+									<div
+											for="userAddress068"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress068" name="userAddress" value="58624" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste nosso</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 324 etc</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress069">
+									<div
+											for="userAddress069"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress069" name="userAddress" value="58625" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste nosso</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 324 etc</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress070">
+									<div
+											for="userAddress070"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress070" name="userAddress" value="58618" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste nosso</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 324 etc</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress071">
+									<div
+											for="userAddress071"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress071" name="userAddress" value="58681" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste giu mobile</span>
+										</div>
+
+										<div class="address">
+											<span class="address">rua do teste giu mobile 123 apartamento giu</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 01010-101</span>
+											<br>
+											<span class="state"> acre - AC</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress072">
+									<div
+											for="userAddress072"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress072" name="userAddress" value="58937" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Kleber</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua João Pellozo 444 Kleber</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 09182-200</span>
+											<br>
+											<span class="state"> Santo André - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress073">
+									<div
+											for="userAddress073"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress073" name="userAddress" value="58936" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">tijolo</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Aquiles Jovane 33 tijolo</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04195-150</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress074">
+									<div
+											for="userAddress074"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress074" name="userAddress" value="59035" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Casa do Meu Tio Celso</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Jarinu 355 Casa do Meu Tio Celso</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 03306-000</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress075">
+									<div
+											for="userAddress075"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress075" name="userAddress" value="59089" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">outra casa</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 11 qualquer andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress076">
+									<div
+											for="userAddress076"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress076" name="userAddress" value="59092" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">outra casa</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 11 qualquer andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress077">
+									<div
+											for="userAddress077"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress077" name="userAddress" value="59095" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">outra casa</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 11 qualquer andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress078">
+									<div
+											for="userAddress078"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress078" name="userAddress" value="59096" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">outra casa</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 11 qualquer andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress079">
+									<div
+											for="userAddress079"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress079" name="userAddress" value="59097" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">outra casa</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 11 qualquer andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress080">
+									<div
+											for="userAddress080"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress080" name="userAddress" value="59098" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">outra casa</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 11 qualquer andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress081">
+									<div
+											for="userAddress081"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress081" name="userAddress" value="59144" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">outra casa</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 11 qualquer andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress082">
+									<div
+											for="userAddress082"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress082" name="userAddress" value="59177" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste nosso</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 324 etc</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress083">
+									<div
+											for="userAddress083"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress083" name="userAddress" value="59178" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste nosso</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 324 etc</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress084">
+									<div
+											for="userAddress084"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress084" name="userAddress" value="59192" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 3 andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress085">
+									<div
+											for="userAddress085"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress085" name="userAddress" value="59205" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste nosso</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 324 etc</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress086">
+									<div
+											for="userAddress086"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress086" name="userAddress" value="59264" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 3 andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress087">
+									<div
+											for="userAddress087"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress087" name="userAddress" value="59259" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste nosso</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 324 etc</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress088">
+									<div
+											for="userAddress088"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress088" name="userAddress" value="59309" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">outra casa</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 11 qualquer andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress089">
+									<div
+											for="userAddress089"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress089" name="userAddress" value="59327" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">outra casa</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 11 qualquer andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress090">
+									<div
+											for="userAddress090"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress090" name="userAddress" value="59340" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 3 andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress091">
+									<div
+											for="userAddress091"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress091" name="userAddress" value="59335" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 3 andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress092">
+									<div
+											for="userAddress092"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress092" name="userAddress" value="59325" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">outra casa</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 11 qualquer andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress093">
+									<div
+											for="userAddress093"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress093" name="userAddress" value="59323" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">outra casa</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 11 qualquer andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress094">
+									<div
+											for="userAddress094"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress094" name="userAddress" value="59312" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">outra casa</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 11 qualquer andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress095">
+									<div
+											for="userAddress095"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress095" name="userAddress" value="59376" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 3 andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress096">
+									<div
+											for="userAddress096"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress096" name="userAddress" value="59390" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste nosso</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 324 etc</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress097">
+									<div
+											for="userAddress097"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress097" name="userAddress" value="59391" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste nosso</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 324 etc</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress098">
+									<div
+											for="userAddress098"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress098" name="userAddress" value="59395" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste nosso</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 324 etc</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress099">
+									<div
+											for="userAddress099"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress099" name="userAddress" value="59396" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">teste nosso</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 324 etc</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress0100">
+									<div
+											for="userAddress0100"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress0100" name="userAddress" value="59401" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Outros</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 oitavo andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress0101">
+									<div
+											for="userAddress0101"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress0101" name="userAddress" value="59402" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName"></span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 oitavo andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress0102">
+									<div
+											for="userAddress0102"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress0102" name="userAddress" value="59403" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">O</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 oitavo andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress0103">
+									<div
+											for="userAddress0103"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress0103" name="userAddress" value="59404" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Outros</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 oitavo andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress0104">
+									<div
+											for="userAddress0104"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress0104" name="userAddress" value="59405" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Ou</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 oitavo andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress0105">
+									<div
+											for="userAddress0105"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress0105" name="userAddress" value="59424" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 3 andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress0106">
+									<div
+											for="userAddress0106"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress0106" name="userAddress" value="59423" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 3 andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress0107">
+									<div
+											for="userAddress0107"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress0107" name="userAddress" value="59467" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Teste 1</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 3 andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress0108">
+									<div
+											for="userAddress0108"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress0108" name="userAddress" value="59469" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Outros</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 oitavo andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress0109">
+									<div
+											for="userAddress0109"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress0109" name="userAddress" value="59470" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Outros</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 oitavo andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress0110">
+									<div
+											for="userAddress0110"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress0110" name="userAddress" value="59473" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Outros</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 oitavo andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box "
+										for="userAddress0111">
+									<div
+											for="userAddress0111"
+											class="inner tb-box "
+									>
+
+											<div class="check">
+												<i class="fa fa-square-o" aria-hidden="true"></i> <small class="f-size-sm">Marcar como principal</small>
+											</div>
+
+										<input type="radio" id="userAddress0111" name="userAddress" value="59474" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Outros</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Rua Branco de Morais 441 oitavo andar</span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04718-010</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+								<label
+										class="address-box selected"
+										for="userAddress0112">
+									<div
+											for="userAddress0112"
+											class="inner tb-box selected"
+									>
+
+											<div class="check checked">
+												<i class="fa fa-check" aria-hidden="true"></i>
+											</div>
+
+										<input type="radio" id="userAddress0112" name="userAddress" value="76967" class="checkout-input" checked="checked">
+										<div class="title">
+											<span class="addressName">Casa</span>
+										</div>
+
+										<div class="address">
+											<span class="address">Avenida Presidente Juscelino Kubitschek 1400 </span>
+											<br>
+											<br>
+
+											<span class="zipcode">CEP: 04543-000</span>
+											<br>
+											<span class="state"> São Paulo - SP</span>
+										</div>
+									</div>
+
+								</label>
+
+
+
+
+
+
+					</div>
+				</form>
+
+				<div class="checkout-address-options-footer">
+					<a id="choose-adress" href="javascript:void(0)" class="w-100 tb-btn button primary hv-black y-fixed-bt">
+						Finalizar Compra
+					</a>
+                </div>
+
+
+                <input type="checkbox" class="hidden window-mobile-toggle" id="address-toggle"  />
+
+					<div class="window-mobile">
+                        <label class="close-button" for="address-toggle"><i class="material-icons">chevron_left</i>Voltar </label>
+                        <div class="window-content">
+                            <span class="heading-2 mobile">Cadastrar novo endereço</span>
+                            <form action="/criar-endereco" method="post" >
+                                <div class="pb-xlg">
+                                    <input type="hidden" name="address.id" value="" id="address.id" />
+
+
+    <div class="createAddress">
+            <div class="form-group col-md-12 ">
+                <input type="text" class="form-control" id="name" name="address.name" tabindex="1" value="" maxlength="100" placeholder="Nome do endereço (exemplo: Casa, escritório, etc)" />
+
+            </div>
+
+
+
+
+            <div class="form-group col-md-4 ">
+                <input type="text" class="form-control zipcode" id="zipcode" name="address.zipcode" value="" data-mask="00000-000" tabindex="2" maxlength="9" data-remote="true" data-url="buscar-endereco" placeholder="CEP" />
+
+
+            </div>
+            <div class="form-group col-md-8 ">
+                <input type="text" class="form-control" id="street" name="address.street" tabindex="3" value="" maxlength="100" placeholder="Endereço" />
+
+            </div>
+            <div class="form-group col-md-4 ">
+                <input type="text" class="form-control" id="number" name="address.number" tabindex="4" value="" maxlength="20" placeholder="Número" />
+
+            </div>
+            <div class="form-group col-md-4 ">
+                <input type="text" class="form-control" id="complement" name="address.complement" tabindex="5" value="" maxlength="100" placeholder="Complemento" />
+
+            </div>
+            <div class="form-group col-md-4 ">
+                <input type="text" class="form-control" id="quarter" name="address.quarter" tabindex="6" value="" maxlength="50" placeholder="Bairro" />
+
+            </div>
+            <div class="form-group col-md-6 ">
+                <input type="text" class="form-control" id="city" name="address.city" tabindex="7" value="" maxlength="50" placeholder="Cidade" />
+
+            </div>
+            <div class="form-group col-md-6 ">
+                <select style="height: 44px" class="form-control" id="state" name="address.state" >
+<option value="AC" >AC</option>
+<option value="AL" >AL</option>
+<option value="AP" >AP</option>
+<option value="AM" >AM</option>
+<option value="BA" >BA</option>
+<option value="CE" >CE</option>
+<option value="DF" >DF</option>
+<option value="ES" >ES</option>
+<option value="GO" >GO</option>
+<option value="MA" >MA</option>
+<option value="MT" >MT</option>
+<option value="MS" >MS</option>
+<option value="MG" >MG</option>
+<option value="PA" >PA</option>
+<option value="PB" >PB</option>
+<option value="PR" >PR</option>
+<option value="PE" >PE</option>
+<option value="PI" >PI</option>
+<option value="RJ" >RJ</option>
+<option value="RN" >RN</option>
+<option value="RS" >RS</option>
+<option value="RO" >RO</option>
+<option value="RR" >RR</option>
+<option value="SC" >SC</option>
+<option value="SP" >SP</option>
+<option value="SE" >SE</option>
+<option value="TO" >TO</option>
+</select>
+
+
+            </div>
+</div>
+ No newline at end of file
+
+                                </div>
+                                <input type="submit" class="tb-btn button primary hv-black w-100 d-block" name="Salvar endereço" value="Salvar endereço" id="Salvar endereço" />
+                            </form>
+                        </div>
+					</div>
+
+
+            </div>
+
+			<!-- Step 2 -->
+			<form action="/gerar-pedido" method="post" name="freight-option-form" id="freight-option-form" >
+			<div id="freigh-section" class=" checkout-ship-options">
+
+						<input type="hidden" name="warehouses" value="[2279]" />
+						<input type="hidden" name="addressId" value="76967" />
+
+					<div class="checkout-options-header">
+								<div class="title">
+									<h2 class="tb-title-2">
+										Escolha as opcões de entrega
+									</h2>
+
+									<div class="address-line">
+										<i class="fa fa-circle" aria-hidden="true"></i>
+										Avenida Presidente Juscelino Kubitschek, 1400,
+										CEP 04543-000 São Paulo, SP
+									</div>
+								</div>
+
+								<div class="new-address">
+									<a href="/escolha-frete" class="tb-btn black hv-tr">
+										<i class="fa fa-exchange" aria-hidden="true"></i>
+										Alterar Endereço de Entrega
+									</a>
+								</div>
+							</div>
+
+
+
+
+							<div class="freight-store clearfix">
+								<div class="freight-box">
+									<div class="box-resume">
+										<div class="title tb-title-2">
+											Entrega 1 de 1
+										</div>
+
+										<div class="inner">
+											<div class="seller-info mt-none">
+												<div class="seller-name">
+													Vendido por <strong>Tracbel Contagem</strong>
+												</div>
+
+												<div class="seller-address pb-md pt-xs">
+													Via Expressa de Contagem,  Contagem - MG
+												</div>
+											</div>
+
+
+											<div class="a-product-info">
+
+													<div class="product-vr">
+														<span class="p-qty">2</span>
+														<span class="p-name">Braço do Sensor de Ângulo de Inclinação - Volvo CE - 15182770 - Unitário</span>
+													</div>
+
+
+											</div>
+										</div>
+									</div>
+
+									<div class="freight-options">
+											<div class="title tb-title-2">
+												TIpo de Entrega
+											</div>
+
+											<div class="inner">
+
+
+														<div class="freight-option-select form-group form-group-md">
+                                                            <span class="freight-content">
+                                                                <label class="d-flex align-f-start w-100">
+
+                                                                        <input class="pickup-in-store-radio" data-warehouse-id="2279" data-freight-value="R$ 0,00" type="radio" id="radio22790" name="sellerFreight2279" value='{"2279": {"name": "Retirada na Loja", "type": "PICKUP_IN_STORE", "intelipostQuoteId": "", "intelipostDeliveryMethodId": "", "deliveryNote": ""}}' required>
+
+
+                                                                    Retirada na Loja
+
+                                                                </label>
+
+                                                                    <p class="pickup-in-store collapse">
+                                                                        <select class="form-control mt-md" name="pickupInStoreId2279">
+
+                                                                                <option value="334">MG -
+                                                                                Contagem -
+                                                                                Via Expressa de Contagem,
+                                                                                3600 -
+                                                                                    32370-485</option>
+
+                                                                        </select>
+                                                                    </p>
+
+																		<p class="pickup-in-store-delivery-note collapse">
+																			<input name="deliveryNote-2279" id="deliveryNote-2279" class="form-control margin-top pickup-in-store-radio pickup-in-store-delivery" type="text" placeholder="Observação - Nome da transportadora" maxlength="200" />
+																		</p>
+
+
+                                                            </span>
+															<span class="freight-value t-right">
+
+																	<strong>Grátis</strong>
+
+															</span>
+														</div>
+
+														<div class="freight-option-select form-group form-group-md">
+                                                            <span class="freight-content">
+                                                                <label class="d-flex align-f-start w-100">
+
+                                                                        <input class="" data-warehouse-id="2279" data-freight-value="R$ 91,41" type="radio" id="radio22791" name="sellerFreight2279" value='{"2279": {"name": "Rodonaves Standard", "type": "INTELIPOST", "intelipostQuoteId": "5062418009", "intelipostDeliveryMethodId": "41", "deliveryNote": ""}}' required>
+
+
+                                                                    Rodonaves Standard
+
+                                                                        em até 3 dias úteis
+
+                                                                </label>
+
+                                                            </span>
+															<span class="freight-value t-right">
+
+																	<strong>R$ 91,41</strong>
+
+															</span>
+														</div>
+
+														<div class="freight-option-select form-group form-group-md">
+                                                            <span class="freight-content">
+                                                                <label class="d-flex align-f-start w-100">
+
+                                                                        <input class="" data-warehouse-id="2279" data-freight-value="R$ 38,03" type="radio" id="radio22792" name="sellerFreight2279" value='{"2279": {"name": "Tnt Standard", "type": "INTELIPOST", "intelipostQuoteId": "5062418009", "intelipostDeliveryMethodId": "25", "deliveryNote": ""}}' required>
+
+
+                                                                    Tnt Standard
+
+                                                                        em até 5 dias úteis
+
+                                                                </label>
+
+                                                            </span>
+															<span class="freight-value t-right">
+
+																	<strong>R$ 38,03</strong>
+
+															</span>
+														</div>
+
+												</div>
+									</div>
+								</div>
+							</div>
+
+
+						<div class="checkout-ship-options-footer">
+
+								<a href="javascript:void(0)" class="tb-btn hv-black button primary freight-submit-form finish-order y-fixed-bt">
+									Finalizar pedido <span class="glyphicon glyphicon-chevron-right"></span>
+								</a>
+								<button type="submit" class="btn btn-success btn-lg btn-payment hide">Efetuar pagamento <span class="glyphicon glyphicon-chevron-right"></span></button>
+
+						</div>
+
+
+			</div>
+
+			<!-- Step 3 -->
+			<div id="order-resume" class="hide p-xs">
+
+
+
+				<h2 class="tb-title-2 text-center" style="margin-bottom:30px">Resumo do Pedido</h2>
+				<div class="">
+					<div class="">
+
+
+							<input type="text" class="form-control mb-lg" id="orderName" name="orderName" tabindex="3" value="" placeholder="Nome do pedido" maxlength="50">
+
+
+
+
+						<div class="clearfix order-resume-f">
+							<ul class="list-unstyled text-right pull-right clear-margin-bottom">
+								<li>
+									<span class="resume-price" id="produtos-2279">R$ 985,96</span>
+								</li>
+								<li>
+									<span class="resume-price" id="frete-2279">
+										0,00
+									</span>
+								</li>
+								<li>
+									<b>
+										<span class="resume-price" id="subTotal-2279">
+											<strong>0,00</strong>
+										</span>
+									</b>
+								</li>
+
+							</ul>
+							<ul class="list-unstyled clear-margin-bottom">
+								<li>
+									Tracbel Contagem
+
+								</li>
+								<li>Frete</li>
+								<strong><li><b>Subtotal</b></li></strong>
+
+							</ul>
+						</div>
+
+
+
+
+						<div class="descount-coupon">
+
+							<p>
+								<a href="#coupon-form" data-toggle="collapse" class="btn btn-default collapsed">
+									<span class="glyphicon glyphicon-menu-up"> </span>
+									Adicionar cupom
+								</a>
+							</p>
+
+							<div id="coupon-form" class="collapse">
+
+								<div class="form-inline form-group">
+									<div>
+										<label for="coupon-input">Código do seu cupom ou vale</label>
+									</div>
+									<input name="couponCode" type="text" placeholder="Código" id="coupon-input" class="form-control" />
+									<button type="submit" class="btn btn-success" name="updateCoupon" value="update">Aplicar</button>
+								</div>
+
+
+
+							</div>
+						</div>
+
+
+
+						<hr />
+
+						<div class="clearfix">
+							<ul class="list-unstyled text-right pull-right">
+								<li style="padding: 15px 5px;">
+									<span class="resume-price" id="final-value">R$ 0,00</span>
+								</li>
+							</ul>
+
+							<ul class="list-unstyled subtotal-footer">
+								<li class="">
+									Total a pagar
+								</li>
+							</ul>
+						</div>
+
+
+							<p class="text-center" style="margin-bottom:60px">
+								<a href="#" id="generate-quotation" class="tb-btn button primary hv-black">Gerar Cotação</a>
+							</p>
+
+						<p class="text-center" style="margin-bottom:60px">
+							<a href="#" id="finalize-payment" class="tb-btn button primary hv-black">Efetuar pagamento</a>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			</form>
+
+
+			<div id="my-products" class="modal fade" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title">Minhas compras</h4>
+						</div>
+
+						<div class="modal-body">
+
+
+
+							<div class="media">
+								<div class="media-left">
+									<img class="media-object" src="https://images.canaldapeca.com.br/produtos/p/19/25/braco-do-sensor-de-angulo-de-inclinacao-4532519-1527121252097.jpg" alt="Braço do Sensor de Ângulo de Inclinação - Volvo CE - 15182770 - Unitário">
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Braço do Sensor de Ângulo de Inclinação - Volvo CE - 15182770 - Unitário</h4>
+								</div>
+							</div>
+
+
+
+						</div>
+
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+		</main>
+		<script src="https://www.stg.tracbel.digital/assets/amazonMobile/checkoutNew.js" type="text/javascript" ></script>
+		<script src="https://www.stg.tracbel.digital/assets/amazonMobile/application.js" type="text/javascript" ></script>
+		<script src="https://www.stg.tracbel.digital/assets/amazonMobile/fillAddress.js" type="text/javascript" ></script>
+		<script src="https://www.stg.tracbel.digital/assets/amazonMobile/formMasks.js" type="text/javascript" ></script>
+		<script src="https://www.stg.tracbel.digital/assets/amazonMobile/buttons.js" type="text/javascript" ></script>
+		<!-- FOOTER -->
+<footer class="footerHome footer">
+
+    <section class="footerContent">
+
+        <!-- NEWSLETTER -->
+
+        <!-- NEWSLETTER -->
+
+        <!-- FOOTER -->
+        <article class="footerTracbel">
+            <div class="col-xs-4">
+                <img src="https://images.canaldapeca.com.br/multimidia/2750/logo-50-anos-1523922391149.png" class="img-responsive" alt="Footer Image">
+            </div>
+            <div class="col-xs-8">
+                <p class="blend-screen">A TRACBEL dispõe de diversas linhas de produtos de alta qualidade e com as mais avançadas tecnologias para atender o mercado de equipamentos para construção, mineração, agrícola e florestais, além de oferecer o melhor suporte em pós-venda do Brasil, capaz de antecipar demandas e prover soluções.
+                </p>
+            </div>
+        </article>
+        <!-- FOOTER -->
+
+    </section>
+
+    <!-- FOOTER MENU -->
+    <nav class="footerMenu">
+
+
+
+
+	<h4>Institucional</h4>
+<ul>
+						<li><a href="/quem-somos"> Sobre</a></li>
+						<li><a href="/historia"> História</a></li>
+						<li><a href="/filiais"> Filiais</a></li>
+						<li><a href="/mapa-do-site"> Mapa do Site</a></li>
+					</ul>
+
+
+
+
+	<h4>Vendas</h4>
+<ul><p>0800 200 1000</p>
+<p> <span class="t-light small">Regiões Metropolitanas</span><br> 3003 1111</p></ul>
+
+
+
+
+	<h4>Pós-Vendas</h4>
+<ul><p>0800 200 1005</p>
+<p> <span class="t-light small">Regiões Metropolitanas</span><br> 3003 2222</p></ul>
+
+    </nav>
+    <!-- FOOTER MENU -->
+
+</footer>
+<!-- FOOTER -->
+
+<!-- COPYRIGHT -->
+<section class="copyright">
+   <article class="copyrightContent">
+       <div class="poweredWrapper">
+            <p>Powered by</p>
+            <a href="http://www.canaldapeca.com.br" target="_blank">
+                <img src="https://www.stg.tracbel.digital/assets/amazonMobile/footer-logo-2e5596c266a939c8664f99fe0a84a194.png" alt="" width="90"/>
+            </a>
+        </div>
+        <span>© Todos os Direitos Reservados</span>
+    </article>
+</section>
+<!-- COPYRIGHT -->
+
+
+<script src="https://www.stg.tracbel.digital/assets/amazonMobile/newsletter-63edaa0551d8a559fb00d28bb02a0cab.js" type="text/javascript" ></script>
+	</div>
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/css-vars-ponyfill@1"></script>
+	<script>
+       cssVars({
+           variables: {
+               "--primaryColor": "#fee600",
+               "--secondaryColor": "#343434"
+           }
+       });
+    </script>
+</body>
+</html>
